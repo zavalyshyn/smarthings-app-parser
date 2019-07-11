@@ -1,0 +1,16 @@
+Namber of apps analyzed: 180
+Number of sources: 8
+Number of sinks: 7
+Number of capabilities: 38
+Number of subscriptions: 84
+Number of sensitive actions: 5
+Number of categories: 25
+    1     0     0     1     6     0     0 
+    3     1     0     0     7     0     0 
+    0     1     1     0    11     0     0 
+    1     0     0     1     2     0     0 
+    0     1     1     0    48     0     0 
+    1     0     0     1     0     0     0 
+    3     0     0     2     3     0     0 
+    1     0     0     1     0     0     0 
+Finished running.

@@ -1,0 +1,1503 @@
+{
+    "apps": [
+        {
+            "subscriptions": [
+                "switch"
+            ],
+            "capabilities": [
+                "switch"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Hello Home / Mode Switches",
+            "description": "Name on/off tiles the same as your Hello Home phrases or Modes",
+            "category": "SmartThings Labs",
+            "actions": [
+                "setLocationMode"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [
+                "httpPost",
+                "httpGet",
+                "httpPutJson"
+            ],
+            "name": "Evohome (Connect)",
+            "description": "Connect your Honeywell Evohome System to SmartThings.",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "location",
+                "sunset",
+                "mode",
+                "sunsetTime",
+                "askAlexaMQ"
+            ],
+            "capabilities": [],
+            "sources": [
+                "phone",
+                "location",
+                "mode"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "$this.get_APP_NAME()",
+            "description": "This smartapp allows a ST user to generate weekly runtime stats (by scheduling or based on custom dates) on their devices controlled by ecobee such as a heating & cooling component,fan, dehumidifier/humidifier/HRV/ERV. ",
+            "category": "My Apps",
+            "actions": [
+                "sendLocationEvent"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": [
+                "sendEvent"
+            ]
+        },
+        {
+            "subscriptions": [
+                "button"
+            ],
+            "capabilities": [
+                "button"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Virtual Buttons",
+            "description": "Create virtual single button devices for each button of your multi-button device (ex. Minimote or ZWN-SC7)",
+            "category": "Convenience",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": [
+                "sendEvent"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "alarm"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "AlarmThing AlertMotion",
+            "description": "Alert me when a specific motion sensor on my alarm is activated.",
+            "category": "Safety & Security",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": [
+                "sendEvent"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "contact",
+                "motion"
+            ],
+            "capabilities": [
+                "alarm"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "AlarmThing AlertAll",
+            "description": "Send a message whenever any sensor changes on the alarm.",
+            "category": "Safety & Security",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "switch.on",
+                "switch.off",
+                "location",
+                "mode",
+                "sunset",
+                "sunrise",
+                "sunsetTime"
+            ],
+            "capabilities": [
+                "colorTemperature",
+                "colorControl",
+                "switchLevel",
+                "switch"
+            ],
+            "sources": [
+                "mode",
+                "location"
+            ],
+            "sinks": [],
+            "name": "Circadian Daylight",
+            "description": "Sync your color changing lights and dimmers with natural daylight hues to improve your cognitive functions and restfulness.",
+            "category": "Green Living",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "climateList"
+            ],
+            "capabilities": [],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeSetClimate",
+            "description": "This script allows an ecobee user to set a Climate at a given day & time",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": [
+                "sendEvent"
+            ]
+        },
+        {
+            "subscriptions": [
+                "acceleration",
+                "alarm",
+                "battery",
+                "presence",
+                "carbonMonoxide",
+                "hue",
+                "saturation",
+                "color",
+                "contact",
+                "energy",
+                "illuminance",
+                "lock",
+                "motion",
+                "status",
+                "level",
+                "trackDescription",
+                "trackData",
+                "mute",
+                "power",
+                "humidity",
+                "switch",
+                "sleeping",
+                "smoke",
+                "steps",
+                "goal",
+                "temperature",
+                "heatingSetpoint",
+                "coolingSetpoint",
+                "thermostatSetpoint",
+                "thermostatMode",
+                "thermostatFanMode",
+                "thermostatOperatingState",
+                "water"
+            ],
+            "capabilities": [
+                "accelerationSensor",
+                "alarm",
+                "battery",
+                "beacon",
+                "carbonMonoxideDetector",
+                "colorControl",
+                "contactSensor",
+                "doorControl",
+                "energyMeter",
+                "illuminanceMeasurement",
+                "lock",
+                "motionSensor",
+                "musicPlayer",
+                "powerMeter",
+                "presenceSensor",
+                "relativeHumidityMeasurement",
+                "relaySwitch",
+                "sleepSensor",
+                "smokeDetector",
+                "stepSensor",
+                "switch",
+                "switchLevel",
+                "temperatureMeasurement",
+                "thermostat",
+                "valve",
+                "waterSensor"
+            ],
+            "sources": [
+                "alarm",
+                "presence",
+                "lock"
+            ],
+            "sinks": [
+                "httpPostJson"
+            ],
+            "name": "DIY Initial State Event Streamer",
+            "description": "A SmartThings SmartApp to allow SmartThings events to be viewable inside an Initial State Event Bucket in your https://www.initialstate.com account.",
+            "category": "SmartThings Labs",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [
+                "mappings"
+            ],
+            "name": "BeaconThings Manager",
+            "description": "SmartApp to interact with the BeaconThings iOS app. Use this app to integrate iBeacons into your smart home.",
+            "category": "Convenience",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "acceleration",
+                "alarm",
+                "battery",
+                "presence",
+                "carbonMonoxide",
+                "hue",
+                "saturation",
+                "color",
+                "contact",
+                "energy",
+                "illuminance",
+                "lock",
+                "motion",
+                "status",
+                "level",
+                "trackDescription",
+                "trackData",
+                "mute",
+                "power",
+                "humidity",
+                "switch",
+                "sleeping",
+                "smoke",
+                "steps",
+                "goal",
+                "temperature",
+                "heatingSetpoint",
+                "coolingSetpoint",
+                "thermostatSetpoint",
+                "thermostatMode",
+                "thermostatFanMode",
+                "thermostatOperatingState",
+                "water"
+            ],
+            "capabilities": [
+                "accelerationSensor",
+                "alarm",
+                "battery",
+                "beacon",
+                "carbonMonoxideDetector",
+                "colorControl",
+                "contactSensor",
+                "doorControl",
+                "energyMeter",
+                "illuminanceMeasurement",
+                "lock",
+                "motionSensor",
+                "musicPlayer",
+                "powerMeter",
+                "presenceSensor",
+                "relativeHumidityMeasurement",
+                "relaySwitch",
+                "sleepSensor",
+                "smokeDetector",
+                "stepSensor",
+                "switch",
+                "switchLevel",
+                "temperatureMeasurement",
+                "thermostat",
+                "valve",
+                "waterSensor"
+            ],
+            "sources": [
+                "alarm",
+                "presence",
+                "lock"
+            ],
+            "sinks": [
+                "mappings",
+                "httpPostJson"
+            ],
+            "name": "Initial State Event Streamer",
+            "description": "A SmartThings SmartApp to allow SmartThings events to be viewable inside an Initial State Event Bucket in your https://www.initialstate.com account.",
+            "category": "SmartThings Labs",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "presenceSensor"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "Working From Home",
+            "description": "If after a particular time of day a certain person is still at home, trigger a 'Working From Home' action.",
+            "category": "Mode Magic",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "location",
+                "sunset",
+                "mode",
+                "sunsetTime",
+                "askAlexaMQ"
+            ],
+            "capabilities": [],
+            "sources": [
+                "phone",
+                "location",
+                "mode"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "$this.get_APP_NAME()",
+            "description": "This smartapp allows a ST user to generate runtime stats (daily by scheduling or based on custom dates) on their devices controlled by ecobee such as a heating & cooling component,fan, dehumidifier/humidifier/HRV/ERV. ",
+            "category": "My Apps",
+            "actions": [
+                "sendLocationEvent"
+            ]
+        },
+        {
+            "subscriptions": [
+                "location",
+                "mode"
+            ],
+            "capabilities": [],
+            "sources": [
+                "phone",
+                "location",
+                "mode"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeChangeMode",
+            "description": "Change the mode manually (by pressing the app's play button) and automatically at the ecobee thermostat(s)",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "smoke",
+                "carbonMonoxide",
+                "battery",
+                "lock",
+                "contact",
+                "thermostatMode"
+            ],
+            "capabilities": [
+                "smokeDetector",
+                "lock",
+                "switch",
+                "contactSensor",
+                "thermostat",
+                "alarm",
+                "speechSynthesis"
+            ],
+            "sources": [
+                "phone",
+                "lock"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "FireCO2Alarm",
+            "description": "In case of a fire/CO2 alarm,turn on all the lights/turn off all thermostats, unlock the doors, disarm the alarm system & open the garage door when CO2 is detected ",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "color temperature"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Color Temp via Virtual Dimmer",
+            "description": "Creates a virtual dimmer switch that will convert level settings to color temp adjustments in selected Color Temp bulbs.",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "location",
+                "presence",
+                "motion"
+            ],
+            "capabilities": [
+                "presenceSensor",
+                "motionSensor"
+            ],
+            "sources": [
+                "phone",
+                "location",
+                "presence"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeResumeProg",
+            "description": "resumes your ecobee's scheduled program when a presence is back home or when motion is detected or when a ST hello mode is changed",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "presenceSensor"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "AutomaticReport",
+            "description": "This smartapp allows a ST user to manually generate daily Reports on their Automatic Connected vehicle",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "contactSensor"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "Remind to close doggy door",
+            "description": "Check that the doggy door is closed after the specified time and send a message if it's not.",
+            "category": "Convenience",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "contactSensor",
+                "speechSynthesis",
+                "switch",
+                "thermostat"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "WindowOrDoorOpen!",
+            "description": "Choose some contact sensors and get a notification (with voice as an option) when they are left open for too long.  Optionally, turn off the HVAC and set it back to cool/heat when window/door is closed",
+            "category": "Safety & Security",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "acceleration",
+                "alarm",
+                "battery",
+                "presence",
+                "carbonMonoxide",
+                "hue",
+                "saturation",
+                "color",
+                "contact",
+                "energy",
+                "illuminance",
+                "lock",
+                "motion",
+                "status",
+                "level",
+                "trackDescription",
+                "trackData",
+                "mute",
+                "power",
+                "humidity",
+                "switch",
+                "sleeping",
+                "smoke",
+                "steps",
+                "goal",
+                "temperature",
+                "heatingSetpoint",
+                "coolingSetpoint",
+                "thermostatSetpoint",
+                "thermostatMode",
+                "thermostatFanMode",
+                "thermostatOperatingState",
+                "water"
+            ],
+            "capabilities": [
+                "accelerationSensor",
+                "alarm",
+                "battery",
+                "beacon",
+                "carbonMonoxideDetector",
+                "colorControl",
+                "contactSensor",
+                "doorControl",
+                "energyMeter",
+                "illuminanceMeasurement",
+                "lock",
+                "motionSensor",
+                "musicPlayer",
+                "powerMeter",
+                "presenceSensor",
+                "relativeHumidityMeasurement",
+                "relaySwitch",
+                "sleepSensor",
+                "smokeDetector",
+                "stepSensor",
+                "switch",
+                "switchLevel",
+                "temperatureMeasurement",
+                "thermostat",
+                "valve",
+                "waterSensor"
+            ],
+            "sources": [
+                "alarm",
+                "presence",
+                "lock"
+            ],
+            "sinks": [
+                "mappings",
+                "httpPostJson"
+            ],
+            "name": "Initial State Event Streamer",
+            "description": "A SmartThings SmartApp to allow SmartThings events to be viewable inside an Initial State Event Bucket in your https://www.initialstate.com account.",
+            "category": "SmartThings Labs",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "temperature",
+                "humidity",
+                "water",
+                "smoke",
+                "carbonMonoxide",
+                "illuminance",
+                "contact",
+                "lock",
+                "acceleration",
+                "motion",
+                "presence",
+                "switch",
+                "level",
+                "battery",
+                "power",
+                "energy",
+                "cost",
+                "heatingSetpoint",
+                "coolingSetpoint",
+                "thermostatMode",
+                "fanMode",
+                "thermostatOperatingState",
+                "dehumidifierMode",
+                "equipmentStatus",
+                "dehumidifierLevel",
+                "humidifierMode",
+                "humidifierLevel",
+                "fanMinOnTime",
+                "ventilatorMode",
+                "ventilatorMinOnTime",
+                "programScheduleName",
+                "auxHeat1RuntimeDaily",
+                "auxHeat2RuntimeDaily",
+                "auxHeat3RuntimeDaily",
+                "compCool1RuntimeDaily",
+                "compCool2RuntimeDaily",
+                "fanRuntimeDaily",
+                "humidifierRuntimeDaily",
+                "dehumidifierRuntimeDaily",
+                "ventilatorRuntimeDaily",
+                "yesterdayTripsAvgAverageKmpl",
+                "yesterdayTripsAvgDistanceM",
+                "yesterdayTripsAvgDurationS",
+                "yesterdayTotalDistanceM",
+                "yesterdayTripsAvgFuelVolumeL",
+                "yesterdayTotalFuelVolumeL",
+                "yesterdayTotalDurationS:",
+                "yesterdayTotalNbTrips",
+                "yesterdayTotalHardAccels",
+                "yesterdayTotalHardBrakes:",
+                "yesterdayTripsAvgScoreSpeeding",
+                "yesterdayTripsAvgScoreEvents",
+                "location",
+                "sunrise",
+                "sunset",
+                "mode",
+                "sunriseTime",
+                "sunsetTime"
+            ],
+            "capabilities": [
+                "temperatureMeasurement",
+                "thermostat",
+                "presenceSensor",
+                "smokeDetector",
+                "relativeHumidityMeasurement",
+                "waterSensor",
+                "IlluminanceMeasurement",
+                "lock",
+                "contactSensor",
+                "accelerationSensor",
+                "motionSensor",
+                "switch",
+                "switchLevel",
+                "battery",
+                "powerMeter",
+                "energyMeter"
+            ],
+            "sources": [
+                "presence",
+                "lock",
+                "location",
+                "mode"
+            ],
+            "sinks": [
+                "httpPutJson"
+            ],
+            "name": "groveStreams",
+            "description": "Log to groveStreams and send data streams based on devices selection",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "presence",
+                "contact",
+                "motion"
+            ],
+            "capabilities": [
+                "presenceSensor",
+                "motionSensor",
+                "switch",
+                "contactSensor",
+                "thermostat",
+                "lock",
+                "imageCapture"
+            ],
+            "sources": [
+                "phone",
+                "presence"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeAwayFromHome",
+            "description": "Away From Home",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "switch",
+                "colorControl"
+            ],
+            "sources": [],
+            "sinks": [
+                "mappings"
+            ],
+            "name": "JSON API",
+            "description": "A JSON API for SmartThings",
+            "category": "SmartThings Labs",
+            "actions": [
+                "callbyreflection"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "button",
+                "switch"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Lutron Group Control",
+            "description": "Add bulbs to a Lutron Remote without using the remote's join process",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": [
+                "sendEvent"
+            ]
+        },
+        {
+            "subscriptions": [
+                "switch"
+            ],
+            "capabilities": [
+                "switch"
+            ],
+            "sources": [
+                "phone",
+                "mode"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "Double Tap Timed Light Switch",
+            "description": "Turn a light for a period of time when an existing switch is tapped OFF twice in a row.",
+            "category": "Convenience",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "alarm"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "AlarmThing Sensor Alert",
+            "description": "Alert me when there is activity on one or more of my alarm's sensors.",
+            "category": "Safety & Security",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "alarm"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "You left the door open!",
+            "description": "Choose a contact sensor from your alarm system (AlarmThing) and get a notification when it is left open for too long.",
+            "category": "Safety & Security",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "location",
+                "sunset",
+                "mode",
+                "sunsetTime",
+                "askAlexaMQ"
+            ],
+            "capabilities": [],
+            "sources": [
+                "phone",
+                "location",
+                "mode"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "$this.get_APP_NAME()",
+            "description": "This smartapp allows a ST user to generate monthly runtime stats (by scheduling or based on custom dates) on their devices controlled by ecobee such as a heating & cooling component,fan, dehumidifier/humidifier/HRV/ERV. ",
+            "category": "My Apps",
+            "actions": [
+                "sendLocationEvent"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "alarm"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "AlarmThing AlertContact",
+            "description": "Alert me when a specific contact sensor on my alarm is opened.",
+            "category": "Safety & Security",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "switch",
+                "motion",
+                "presence",
+                "location",
+                "mode",
+                "sunset",
+                "sunrise"
+            ],
+            "capabilities": [
+                "switch",
+                "motionSensor",
+                "presenceSensor",
+                "colorControl",
+                "switchLevel",
+                "speechSynthesis"
+            ],
+            "sources": [
+                "presence",
+                "location",
+                "mode"
+            ],
+            "sinks": [
+                "httpPostJson"
+            ],
+            "name": "Loft",
+            "description": "All the business logic for my crappy loft lives here",
+            "category": "SmartThings Labs",
+            "actions": [
+                "setLocationMode"
+            ]
+        },
+        {
+            "subscriptions": [
+                "acceleration",
+                "alarm",
+                "battery",
+                "presence",
+                "carbonMonoxide",
+                "hue",
+                "saturation",
+                "color",
+                "contact",
+                "energy",
+                "illuminance",
+                "lock",
+                "motion",
+                "status",
+                "level",
+                "trackDescription",
+                "trackData",
+                "mute",
+                "power",
+                "humidity",
+                "switch",
+                "sleeping",
+                "smoke",
+                "steps",
+                "goal",
+                "temperature",
+                "heatingSetpoint",
+                "coolingSetpoint",
+                "thermostatSetpoint",
+                "thermostatMode",
+                "thermostatFanMode",
+                "thermostatOperatingState",
+                "water"
+            ],
+            "capabilities": [
+                "accelerationSensor",
+                "alarm",
+                "battery",
+                "beacon",
+                "carbonMonoxideDetector",
+                "colorControl",
+                "contactSensor",
+                "doorControl",
+                "energyMeter",
+                "illuminanceMeasurement",
+                "lock",
+                "motionSensor",
+                "musicPlayer",
+                "powerMeter",
+                "presenceSensor",
+                "relativeHumidityMeasurement",
+                "relaySwitch",
+                "sleepSensor",
+                "smokeDetector",
+                "stepSensor",
+                "switch",
+                "switchLevel",
+                "temperatureMeasurement",
+                "thermostat",
+                "valve",
+                "waterSensor"
+            ],
+            "sources": [
+                "alarm",
+                "presence",
+                "lock"
+            ],
+            "sinks": [
+                "mappings",
+                "httpPostJson"
+            ],
+            "name": "Initial State Event Streamer",
+            "description": "A SmartThings SmartApp to allow SmartThings events to be viewable inside an Initial State Event Bucket in your https://www.initialstate.com account.",
+            "category": "SmartThings Labs",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "location",
+                "null"
+            ],
+            "capabilities": [],
+            "sources": [
+                "location"
+            ],
+            "sinks": [],
+            "name": "StriimLight (Connect)",
+            "description": "Allows you to control your StriimLight from the SmartThings app. Control the music and the light.",
+            "category": "SmartThings Labs",
+            "actions": [
+                "sendHubCommand"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "colorControl"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Hue Party Mode",
+            "description": "Change the color of your lights randomly at an interval of your choosing.",
+            "category": "Fun & Social",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeManageVacation",
+            "description": "manages your ecobee vacation settings ['creation', 'update', 'delete']",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "location",
+                "mode"
+            ],
+            "capabilities": [
+                "accelerationSensor",
+                "alarm",
+                "battery",
+                "beacon",
+                "button",
+                "carbonMonoxideDetector",
+                "carbonDioxideMeasurement",
+                "colorControl",
+                "consumable",
+                "contactSensor",
+                "doorControl",
+                "energyMeter",
+                "relativeHumidityMeasurement",
+                "illuminanceMeasurement",
+                "lock",
+                "motionSensor",
+                "musicPlayer",
+                "stepSensor",
+                "pHMeasurement",
+                "powerMeter",
+                "presenceSensor",
+                "sensor",
+                "shockSensor",
+                "signalStrength",
+                "sleepSensor",
+                "smokeDetector",
+                "soundSensor",
+                "soundPressureLevel",
+                "switch",
+                "switchLevel",
+                "tamperAlert",
+                "temperatureMeasurement",
+                "thermostat",
+                "threeAxis",
+                "touchSensor",
+                "ultravioletIndex",
+                "valve",
+                "voltageMeasurement",
+                "waterSensor",
+                "windowShade"
+            ],
+            "sources": [
+                "location",
+                "mode"
+            ],
+            "sinks": [],
+            "name": "InfluxDB Logger",
+            "description": "Log SmartThings device states to InfluxDB",
+            "category": "My Apps",
+            "actions": [
+                "sendHubCommand"
+            ]
+        },
+        {
+            "subscriptions": [
+                "switch.on",
+                "switch.off"
+            ],
+            "capabilities": [
+                "switch"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Zwave Switch Indicator Light Manager",
+            "description": "Changes the indicator light setting to always be off",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "power"
+            ],
+            "capabilities": [
+                "powerMeter",
+                "switch",
+                "colorControl",
+                "capability"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "Better Laundry Monitor",
+            "description": "Using a switch with powerMonitor capability, monitor the laundry cycle and alert when it's done.",
+            "category": "Green Living",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "climateName"
+            ],
+            "capabilities": [],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeSetFanMinOnTime",
+            "description": "ecobeeSetFanMinOnTime, the smartapp that sets your ecobee's fan to circulate for a minimum time (in minutes) per hour",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeControlPlug",
+            "description": "Control a plug attached to an ecobee device",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "presence"
+            ],
+            "capabilities": [
+                "presenceSensor"
+            ],
+            "sources": [
+                "mode",
+                "presence"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "SmartPresence",
+            "description": "Change mode (by invoking various \"Hello, Home\" phrases) based on presense and current mode.",
+            "category": "Mode Magic",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "battery"
+            ],
+            "capabilities": [
+                "battery"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "Battery Low",
+            "description": "Notify when battery charge drops below the specified level.",
+            "category": "Convenience",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeManageGroup",
+            "description": "Allows a user to create,update, and delete an ecobee group",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "switch.off",
+                "switch.on",
+                "location",
+                "sunrise",
+                "sunset",
+                "mode",
+                "sunriseTime",
+                "sunsetTime"
+            ],
+            "capabilities": [
+                "thermostat",
+                "relativeHumidityMeasurement",
+                "powerMeter",
+                "switch"
+            ],
+            "sources": [
+                "phone",
+                "location",
+                "mode"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "MonitorAndSetEcobeeHumidity",
+            "description": "Monitor And set Ecobee's humidity via your connected humidifier/dehumidifier/HRV/ERV",
+            "category": "My Apps",
+            "actions": [
+                "sendLocationEvent"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": [
+                "sendEvent"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "motionSensor"
+            ],
+            "sources": [],
+            "sinks": [
+                "mappings"
+            ],
+            "name": "Camera Motion",
+            "description": "Creates an endpoint for your camera ",
+            "category": "Convenience",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "lock"
+            ],
+            "capabilities": [
+                "lock",
+                "contactSensor"
+            ],
+            "sources": [
+                "phone",
+                "lock"
+            ],
+            "sinks": [],
+            "name": "Notify If Left Unlocked",
+            "description": "Send a push or SMS notification (and lock, if it's closed) if a door is left unlocked for a period of time.",
+            "category": "Safety & Security",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "button"
+            ],
+            "capabilities": [
+                "button",
+                "switch",
+                "momentary",
+                "lock",
+                "musicPlayer",
+                "alarm"
+            ],
+            "sources": [
+                "mode",
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "Button Controller for HLGS",
+            "description": "Control devices (including HLGS Scenes) with buttons like the Aeon Labs Minimote",
+            "category": "Convenience",
+            "actions": [
+                "setLocationMode"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "actions": [
+                "sendEvent"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [
+                "switch level"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Smart Bulb Alert (Blink/Flash)",
+            "description": "Creates a virtual switch button that when turned on will trigger selected smart bulbs to blink or flash",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "ecobeeManageClimate",
+            "description": "Allows a user to manage ecobee's climates",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "eventTripCreatedAt"
+            ],
+            "capabilities": [
+                "presenceSensor",
+                "switch"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "AutomaticCarHA",
+            "description": "Near Real-Time Automatic Car automation with SmartThings",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "lock",
+                "contact.closed",
+                "contact.open"
+            ],
+            "capabilities": [
+                "lock",
+                "contactSensor"
+            ],
+            "sources": [
+                "lock"
+            ],
+            "sinks": [],
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "switch"
+            ],
+            "capabilities": [
+                "switch"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "Double Tap Switch for 'Hello, Home' Action",
+            "description": "Execute a 'Hello, Home' action when an existing switch is tapped twice in a row.",
+            "category": "Mode Magic",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "alarmStatus"
+            ],
+            "capabilities": [
+                "alarm"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "SmartAlarmAlert",
+            "description": "Alert me when my alarm status changes (armed, alarming, disarmed).",
+            "category": "Safety & Security",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "location",
+                "null",
+                "bulbList",
+                "groupList",
+                "sceneList"
+            ],
+            "capabilities": [],
+            "sources": [
+                "location"
+            ],
+            "sinks": [],
+            "name": "Hue Lights and Groups and Scenes (OH MY)",
+            "description": "Allows you to connect your Philips Hue lights with SmartThings and control them from your Things area or Dashboard in the SmartThings Mobile app. Adjust colors by going to the Thing detail screen for your Hue lights (tap the gear on Hue tiles).\n\nPlease update your Hue Bridge first, outside of the SmartThings app, using the Philips Hue app.",
+            "category": "SmartThings Labs",
+            "actions": [
+                "sendEvent",
+                "sendHubCommand"
+            ]
+        },
+        {
+            "subscriptions": [
+                "motion",
+                "programHeatTemp",
+                "programCoolTemp",
+                "setClimate",
+                "thermostatMode",
+                "switch.off",
+                "switch.on",
+                "location",
+                "sunrise",
+                "sunset",
+                "mode",
+                "sunriseTime",
+                "sunsetTime"
+            ],
+            "capabilities": [
+                "thermostat",
+                "motionSensor",
+                "temperatureMeasurement",
+                "switch"
+            ],
+            "sources": [
+                "phone",
+                "location",
+                "mode"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "MonitorAndSetEcobeeTemp",
+            "description": "Monitors And Adjusts Ecobee your programmed temperature according to indoor motion sensors & outdoor temperature and humidity.",
+            "category": "My Apps",
+            "actions": [
+                "sendLocationEvent"
+            ]
+        },
+        {
+            "subscriptions": [],
+            "capabilities": [],
+            "sources": [],
+            "sinks": [],
+            "name": "ecobeeGetTips",
+            "description": "Get Energy Saving Tips from My Ecobee device",
+            "category": "My Apps",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "switch",
+                "status"
+            ],
+            "capabilities": [
+                "switch",
+                "momentary",
+                "threeAxis"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Control garage with switch",
+            "description": "Use a z-wave light switch to control your garage. When the switch is pressed down, the garage door will close (if its not already), and likewise, it will open when up is pressed on the switch. Additionally, the indicator light on the switch will tell you if the garage door is open or closed.",
+            "category": "Convenience",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "contact",
+                "sensorChange"
+            ],
+            "capabilities": [
+                "thermostat",
+                "contactSensor"
+            ],
+            "sources": [],
+            "sinks": [],
+            "name": "Thermostat Auto Off",
+            "description": "Automatically turn off thermostat when windows/doors open. Turn it back on when everything is closed up.",
+            "category": "Green Living",
+            "actions": []
+        },
+        {
+            "subscriptions": [
+                "tamper.tampered"
+            ],
+            "capabilities": [
+                "contactSensor",
+                "alarm"
+            ],
+            "sources": [
+                "phone"
+            ],
+            "sinks": [
+                "sendSms"
+            ],
+            "name": "Device Tamper Alarm",
+            "description": "Receive notification when a device is tampered with. Currently supports Quirky Tripper.",
+            "category": "Safety & Security",
+            "actions": []
+        }
+    ]
+}
