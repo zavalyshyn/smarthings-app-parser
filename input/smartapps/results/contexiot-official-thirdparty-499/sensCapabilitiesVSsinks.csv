@@ -1,0 +1,9 @@
+ ,sendSms,mappings,httpGet,httpPost,httpPostJson,httpDelete,httpPutJson
+capability.motionSensor,25,13,4,4,10,0,1
+capability.presenceSensor,39,13,3,4,10,0,1
+capability.lock,12,14,2,4,10,0,0
+capability.doorControl,0,1,0,0,1,0,0
+capability.alarm,6,5,1,1,4,0,0
+capability.smokeDetector,4,2,0,0,2,0,0
+capability.imageCapture,5,1,0,1,0,0,0
+capability.lockCodes,1,1,0,0,1,0,0

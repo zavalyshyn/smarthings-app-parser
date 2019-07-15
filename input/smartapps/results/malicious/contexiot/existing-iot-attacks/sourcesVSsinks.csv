@@ -1,0 +1,4 @@
+ ,sendSms,httpPost,mappings,httpGet
+mode,2,1,0,0
+phone,3,1,0,0
+location,2,1,0,0

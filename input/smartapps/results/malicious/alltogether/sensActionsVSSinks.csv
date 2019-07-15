@@ -1,0 +1,9 @@
+ ,sendSms,httpPost,httpPostJson,httpGet,mappings
+unlock,1,0,0,0,0
+setLocationMode,8,2,1,0,0
+sendHubCommand,2,2,0,0,0
+open,1,0,0,1,0
+deleteCode,1,1,0,0,1
+setCode,0,0,0,0,1
+updateCodes,1,1,0,0,0
+sendLocationEvent,1,1,0,0,0

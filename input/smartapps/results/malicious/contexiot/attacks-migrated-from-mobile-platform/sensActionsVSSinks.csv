@@ -1,0 +1,6 @@
+ ,sendSms,httpPost,httpGet,mappings
+setLocationMode,1,1,0,0
+sendHubCommand,1,1,0,0
+deleteCode,1,1,0,0
+updateCodes,1,1,0,0
+sendLocationEvent,1,1,0,0

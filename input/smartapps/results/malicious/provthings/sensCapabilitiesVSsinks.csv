@@ -1,0 +1,6 @@
+ ,sendSms,httpPost,httpPostJson,httpGet,mappings
+capability.alarm,3,0,0,4,0
+capability.motionSensor,1,1,0,0,0
+capability.presenceSensor,2,0,2,0,0
+capability.smokeDetector,1,0,0,4,0
+capability.lock,0,0,0,0,1

@@ -1,0 +1,7 @@
+ ,sendSms,httpPostJson,httpGet
+location,3,1,0
+mode,2,1,0
+presence,2,0,0
+alarm,1,0,2
+motion.active,1,0,0
+motion.inactive,1,0,0

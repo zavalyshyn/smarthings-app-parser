@@ -1,0 +1,8 @@
+ ,mappings,httpPost,httpGet,httpPostJson,sendSms,httpDelete,httpPutJson
+sendEvent,8,8,7,1,2,3,1
+sendHubCommand,2,1,1,1,0,0,0
+setLocationMode,0,0,1,0,10,0,0
+take,1,0,0,0,2,0,0
+unlock,2,0,0,0,3,0,0
+open,1,0,0,0,0,0,0
+textToSpeech,0,0,0,0,1,0,0

@@ -1,0 +1,4 @@
+ ,sendSms,httpPostJson,httpGet
+phone,6,1,0
+location,3,1,0
+mode,4,1,0

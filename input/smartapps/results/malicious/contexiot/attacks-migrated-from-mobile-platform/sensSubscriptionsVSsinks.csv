@@ -1,0 +1,6 @@
+ ,sendSms,httpPost,httpGet,mappings
+presence,1,2,1,0
+alarm,2,0,3,0
+location,2,2,0,0
+codeReport,1,1,0,0
+lock,1,1,0,0
