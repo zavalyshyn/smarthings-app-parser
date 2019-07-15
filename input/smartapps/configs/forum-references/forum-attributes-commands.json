@@ -1,0 +1,2213 @@
+[
+   {
+      "Illuminance Measurement":{
+         "attributes":[
+            {
+               "name":"illuminance",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Temperature Measurement":{
+         "attributes":[
+            {
+               "name":"temperature",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Relative Humidity Measurement":{
+         "attributes":[
+            {
+               "name":"humidity",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Switch":{
+         "attributes":[
+            {
+               "name":"switch",
+               "dataType":"ENUM",
+               "values":[
+                  "on",
+                  "off"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"on",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"off",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Battery":{
+         "attributes":[
+            {
+               "name":"battery",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Contact Sensor":{
+         "attributes":[
+            {
+               "name":"contact",
+               "dataType":"ENUM",
+               "values":[
+                  "closed",
+                  "open"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Motion Sensor":{
+         "attributes":[
+            {
+               "name":"motion",
+               "dataType":"ENUM",
+               "values":[
+                  "inactive",
+                  "active"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Presence Sensor":{
+         "attributes":[
+            {
+               "name":"presence",
+               "dataType":"ENUM",
+               "values":[
+                  "present",
+                  "not present"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Alarm":{
+         "attributes":[
+            {
+               "name":"alarm",
+               "dataType":"ENUM",
+               "values":[
+                  "strobe",
+                  "off",
+                  "both",
+                  "siren"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"off",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"strobe",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"siren",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"both",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Water Sensor":{
+         "attributes":[
+            {
+               "name":"water",
+               "dataType":"ENUM",
+               "values":[
+                  "wet",
+                  "dry"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Polling":{
+         "attributes":[
+
+         ],
+         "commands":[
+            {
+               "name":"poll",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Configuration":{
+         "attributes":[
+
+         ],
+         "commands":[
+            {
+               "name":"configure",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Tone":{
+         "attributes":[
+
+         ],
+         "commands":[
+            {
+               "name":"beep",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Three Axis":{
+         "attributes":[
+            {
+               "name":"threeAxis",
+               "dataType":"VECTOR3",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Switch Level":{
+         "attributes":[
+            {
+               "name":"level",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setLevel",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  },
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Lock":{
+         "attributes":[
+            {
+               "name":"lock",
+               "dataType":"ENUM",
+               "values":[
+                  "locked",
+                  "unlocked with timeout",
+                  "unlocked",
+                  "unknown"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"lock",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"unlock",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Acceleration Sensor":{
+         "attributes":[
+            {
+               "name":"acceleration",
+               "dataType":"ENUM",
+               "values":[
+                  "inactive",
+                  "active"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Refresh":{
+         "attributes":[
+
+         ],
+         "commands":[
+            {
+               "name":"refresh",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Thermostat":{
+         "attributes":[
+            {
+               "name":"temperature",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"heatingSetpoint",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"coolingSetpoint",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"thermostatSetpoint",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"thermostatMode",
+               "dataType":"ENUM",
+               "values":[
+                  "auto",
+                  "off",
+                  "heat",
+                  "emergency heat",
+                  "cool"
+               ]
+            },
+            {
+               "name":"thermostatFanMode",
+               "dataType":"ENUM",
+               "values":[
+                  "on",
+                  "circulate",
+                  "auto"
+               ]
+            },
+            {
+               "name":"thermostatOperatingState",
+               "dataType":"ENUM",
+               "values":[
+                  "heating",
+                  "pending cool",
+                  "pending heat",
+                  "vent economizer",
+                  "idle",
+                  "cooling",
+                  "fan only"
+               ]
+            },
+            {
+               "name":"schedule",
+               "dataType":"JSON_OBJECT",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setHeatingSetpoint",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"setCoolingSetpoint",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"off",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"heat",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"emergencyHeat",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"cool",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"setThermostatMode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"ENUM"
+                  }
+               ]
+            },
+            {
+               "name":"fanOn",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"fanAuto",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"fanCirculate",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"setThermostatFanMode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"ENUM"
+                  }
+               ]
+            },
+            {
+               "name":"auto",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"setSchedule",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"JSON_OBJECT"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Momentary":{
+         "attributes":[
+
+         ],
+         "commands":[
+            {
+               "name":"push",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Image Capture":{
+         "attributes":[
+            {
+               "name":"image",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"take",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Energy Meter":{
+         "attributes":[
+            {
+               "name":"energy",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Power Meter":{
+         "attributes":[
+            {
+               "name":"power",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Indicator":{
+         "attributes":[
+            {
+               "name":"indicatorStatus",
+               "dataType":"ENUM",
+               "values":[
+                  "never",
+                  "when on",
+                  "when off"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"indicatorWhenOn",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"indicatorWhenOff",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"indicatorNever",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Valve":{
+         "attributes":[
+            {
+               "name":"contact",
+               "dataType":"ENUM",
+               "values":[
+                  "open",
+                  "closed"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"open",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"close",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Location Mode":{
+         "attributes":[
+            {
+               "name":"mode",
+               "dataType":"DYNAMIC_ENUM",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Signal Strength":{
+         "attributes":[
+            {
+               "name":"lqi",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"rssi",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Smoke Detector":{
+         "attributes":[
+            {
+               "name":"smoke",
+               "dataType":"ENUM",
+               "values":[
+                  "clear",
+                  "tested",
+                  "detected"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Carbon Monoxide Detector":{
+         "attributes":[
+            {
+               "name":"carbonMonoxide",
+               "dataType":"ENUM",
+               "values":[
+                  "detected",
+                  "tested",
+                  "clear"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Button":{
+         "attributes":[
+            {
+               "name":"button",
+               "dataType":"ENUM",
+               "values":[
+                  "held",
+                  "pushed"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Music Player":{
+         "attributes":[
+            {
+               "name":"status",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"level",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"trackDescription",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"trackData",
+               "dataType":"JSON_OBJECT",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"mute",
+               "dataType":"ENUM",
+               "values":[
+                  "unmuted",
+                  "muted"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"play",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"pause",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"stop",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"nextTrack",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"playTrack",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            },
+            {
+               "name":"setLevel",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"playText",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            },
+            {
+               "name":"mute",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"previousTrack",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"unmute",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"setTrack",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            },
+            {
+               "name":"resumeTrack",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            },
+            {
+               "name":"restoreTrack",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Lock Codes":{
+         "attributes":[
+            {
+               "name":"lock",
+               "dataType":"ENUM",
+               "values":[
+                  "unlocked",
+                  "locked",
+                  "unlocked with timeout",
+                  "unknown"
+               ]
+            },
+            {
+               "name":"codeReport",
+               "dataType":"JSON_OBJECT",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"codeChanged",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"lock",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"unlock",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"updateCodes",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"JSON_OBJECT"
+                  }
+               ]
+            },
+            {
+               "name":"setCode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  },
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"deleteCode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"requestCode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"reloadAllCodes",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Color Control":{
+         "attributes":[
+            {
+               "name":"hue",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"saturation",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"color",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setHue",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"setSaturation",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"setColor",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"COLOR_MAP"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Sensor":{
+         "attributes":[
+
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Actuator":{
+         "attributes":[
+
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Relay Switch":{
+         "attributes":[
+            {
+               "name":"switch",
+               "dataType":"ENUM",
+               "values":[
+                  "on",
+                  "off"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"on",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"off",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Beacon":{
+         "attributes":[
+            {
+               "name":"presence",
+               "dataType":"ENUM",
+               "values":[
+                  "not present",
+                  "present"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Sleep Sensor":{
+         "attributes":[
+            {
+               "name":"sleeping",
+               "dataType":"ENUM",
+               "values":[
+                  "not sleeping",
+                  "sleeping"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Step Sensor":{
+         "attributes":[
+            {
+               "name":"steps",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"goal",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Test Capability":{
+         "attributes":[
+
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Door Control":{
+         "attributes":[
+            {
+               "name":"door",
+               "dataType":"ENUM",
+               "values":[
+                  "unknown",
+                  "closed",
+                  "open",
+                  "closing",
+                  "opening"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"open",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"close",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Media Controller":{
+         "attributes":[
+            {
+               "name":"activities",
+               "dataType":"JSON_OBJECT",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"currentActivity",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"startActivity",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            },
+            {
+               "name":"getAllActivities",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"getCurrentActivity",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Speech Synthesis":{
+         "attributes":[
+
+         ],
+         "commands":[
+            {
+               "name":"speak",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Speech Recognition":{
+         "attributes":[
+            {
+               "name":"phraseSpoken",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Thermostat Cooling Setpoint":{
+         "attributes":[
+            {
+               "name":"coolingSetpoint",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setCoolingSetpoint",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Touch Sensor":{
+         "attributes":[
+            {
+               "name":"touch",
+               "dataType":"ENUM",
+               "values":[
+                  "touched"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Thermostat Mode":{
+         "attributes":[
+            {
+               "name":"thermostatMode",
+               "dataType":"ENUM",
+               "values":[
+                  "heat",
+                  "cool",
+                  "emergency heat",
+                  "auto",
+                  "off"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"off",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"heat",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"emergencyHeat",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"cool",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"auto",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"setThermostatMode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"ENUM"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Thermostat Fan Mode":{
+         "attributes":[
+            {
+               "name":"thermostatFanMode",
+               "dataType":"ENUM",
+               "values":[
+                  "auto",
+                  "circulate",
+                  "on"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"fanOn",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"fanAuto",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"fanCirculate",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"setThermostatFanMode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"ENUM"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Thermostat Operating State":{
+         "attributes":[
+            {
+               "name":"thermostatOperatingState",
+               "dataType":"ENUM",
+               "values":[
+                  "vent economizer",
+                  "pending cool",
+                  "cooling",
+                  "heating",
+                  "pending heat",
+                  "fan only",
+                  "idle"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Thermostat Heating Setpoint":{
+         "attributes":[
+            {
+               "name":"heatingSetpoint",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setHeatingSetpoint",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Thermostat Setpoint":{
+         "attributes":[
+            {
+               "name":"thermostatSetpoint",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "TV":{
+         "attributes":[
+            {
+               "name":"volume",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"channel",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"power",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"picture",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"sound",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"movieMode",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"volumeUp",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"volumeDown",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"channelUp",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"channelDown",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Color Temperature":{
+         "attributes":[
+            {
+               "name":"colorTemperature",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setColorTemperature",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Garage Door Control":{
+         "attributes":[
+            {
+               "name":"door",
+               "dataType":"ENUM",
+               "values":[
+                  "unknown",
+                  "open",
+                  "closing",
+                  "closed",
+                  "opening"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"open",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"close",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Estimated Time Of Arrival":{
+         "attributes":[
+            {
+               "name":"eta",
+               "dataType":"DATE",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Notification":{
+         "attributes":[
+
+         ],
+         "commands":[
+            {
+               "name":"deviceNotification",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Thermostat Schedule":{
+         "attributes":[
+            {
+               "name":"schedule",
+               "dataType":"JSON_OBJECT",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setSchedule",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"JSON_OBJECT"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Health Check":{
+         "attributes":[
+            {
+               "name":"checkInterval",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"ping",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Ultraviolet Index":{
+         "attributes":[
+            {
+               "name":"ultravioletIndex",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Video Camera":{
+         "attributes":[
+            {
+               "name":"camera",
+               "dataType":"ENUM",
+               "values":[
+                  "on",
+                  "off",
+                  "restarting",
+                  "unavailable"
+               ]
+            },
+            {
+               "name":"statusMessage",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"mute",
+               "dataType":"ENUM",
+               "values":[
+                  "unmuted",
+                  "muted"
+               ]
+            },
+            {
+               "name":"settings",
+               "dataType":"JSON_OBJECT",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"on",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"off",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"mute",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"unmute",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"flip",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Video Capture":{
+         "attributes":[
+            {
+               "name":"clip",
+               "dataType":"JSON_OBJECT",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"capture",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"DATE"
+                  },
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"DATE"
+                  },
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"DATE"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Zw Multichannel":{
+         "attributes":[
+            {
+               "name":"epEvent",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"epInfo",
+               "dataType":"STRING",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"enableEpEvents",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            },
+            {
+               "name":"epCmd",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  },
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Sound Sensor":{
+         "attributes":[
+            {
+               "name":"sound",
+               "dataType":"ENUM",
+               "values":[
+                  "detected",
+                  "not detected"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Consumable":{
+         "attributes":[
+            {
+               "name":"consumableStatus",
+               "dataType":"ENUM",
+               "values":[
+                  "missing",
+                  "order",
+                  "maintenance_required",
+                  "good",
+                  "replace"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setConsumableStatus",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Timed Session":{
+         "attributes":[
+            {
+               "name":"sessionStatus",
+               "dataType":"ENUM",
+               "values":[
+                  "stopped",
+                  "canceled",
+                  "running",
+                  "paused"
+               ]
+            },
+            {
+               "name":"timeRemaining",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"setTimeRemaining",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"start",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"stop",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"pause",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"cancel",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Carbon Dioxide Measurement":{
+         "attributes":[
+            {
+               "name":"carbonDioxide",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Sound Pressure Level":{
+         "attributes":[
+            {
+               "name":"soundPressureLevel",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "pH Measurement":{
+         "attributes":[
+            {
+               "name":"pH",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Tamper Alert":{
+         "attributes":[
+            {
+               "name":"tamper",
+               "dataType":"ENUM",
+               "values":[
+                  "clear",
+                  "detected"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Voltage Measurement":{
+         "attributes":[
+            {
+               "name":"voltage",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Window Shade":{
+         "attributes":[
+            {
+               "name":"windowShade",
+               "dataType":"ENUM",
+               "values":[
+                  "opening",
+                  "partially open",
+                  "closed",
+                  "open",
+                  "closing",
+                  "unknown"
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"open",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"close",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"presetPosition",
+               "arguments":[
+
+               ]
+            }
+         ]
+      }
+   },
+   {
+      "Shock Sensor":{
+         "attributes":[
+            {
+               "name":"shock",
+               "dataType":"ENUM",
+               "values":[
+                  "clear",
+                  "detected"
+               ]
+            }
+         ],
+         "commands":[
+
+         ]
+      }
+   },
+   {
+      "Samsung TV":{
+         "attributes":[
+            {
+               "name":"volume",
+               "dataType":"NUMBER",
+               "values":[
+
+               ]
+            },
+            {
+               "name":"mute",
+               "dataType":"ENUM",
+               "values":[
+                  "muted",
+                  "unknown",
+                  "unmuted"
+               ]
+            },
+            {
+               "name":"pictureMode",
+               "dataType":"ENUM",
+               "values":[
+                  "unknown",
+                  "standard",
+                  "movie",
+                  "dynamic"
+               ]
+            },
+            {
+               "name":"soundMode",
+               "dataType":"ENUM",
+               "values":[
+                  "speech",
+                  "movie",
+                  "unknown",
+                  "standard",
+                  "music"
+               ]
+            },
+            {
+               "name":"switch",
+               "dataType":"ENUM",
+               "values":[
+                  "on",
+                  "off"
+               ]
+            },
+            {
+               "name":"messageButton",
+               "dataType":"JSON_OBJECT",
+               "values":[
+
+               ]
+            }
+         ],
+         "commands":[
+            {
+               "name":"volumeUp",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"volumeDown",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"setVolume",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"NUMBER"
+                  }
+               ]
+            },
+            {
+               "name":"mute",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"unmute",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"setPictureMode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"ENUM"
+                  }
+               ]
+            },
+            {
+               "name":"setSoundMode",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"ENUM"
+                  }
+               ]
+            },
+            {
+               "name":"on",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"off",
+               "arguments":[
+
+               ]
+            },
+            {
+               "name":"showMessage",
+               "arguments":[
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  },
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  },
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  },
+                  {
+                     "enumType":"physicalgraph.device.DataType",
+                     "name":"STRING"
+                  }
+               ]
+            }
+         ]
+      }
+   }
+]

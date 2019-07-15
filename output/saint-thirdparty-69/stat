@@ -1,0 +1,48 @@
+STATISTICS
+
+Namber of apps analyzed: 69
+Number of sensitive sources: 3
+Number of sensitive sinks: 6
+Number of capabilities: 45
+Number of sensitive capabilities: 9
+Number of subscriptions: 233
+Number of sensitive subscriptions: 7
+Number of sensitive actions: 5
+Number of categories: 7
+
+Number of apps with sensitive sinks: 
+httpPost: 1/69 (1%)
+httpGet: 1/69 (1%)
+httpPutJson: 2/69 (2%)
+sendSms: 27/69 (39%)
+httpPostJson: 5/69 (7%)
+mappings: 6/69 (8%)
+
+Number of apps with an exposed endpoint (webapps): 
+mappings: 6/69 (8%)
+
+Number of apps that make HTTP requests: 
+HTTP Requests: 7/69 (10%)
+
+Number of apps with sensitive sources: 
+phone: 25/69 (36%)
+location: 13/69 (18%)
+mode: 13/69 (18%)
+
+Number of apps with sensitive capabilities: 
+capability.alarm: 14/69 (20%)
+capability.doorControl: 5/69 (7%)
+capability.lock: 11/69 (15%)
+capability.motionSensor: 11/69 (15%)
+capability.presenceSensor: 13/69 (18%)
+capability.sleepSensor: 5/69 (7%)
+capability.smokeDetector: 7/69 (10%)
+capability.imageCapture: 1/69 (1%)
+capability.soundSensor: 1/69 (1%)
+
+Number of apps with sensitive actions: 
+setLocationMode: 3/69 (4%)
+sendLocationEvent: 5/69 (7%)
+sendEvent: 8/69 (11%)
+unlock: 2/69 (2%)
+sendHubCommand: 3/69 (4%)

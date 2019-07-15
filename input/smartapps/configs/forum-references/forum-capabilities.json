@@ -1,0 +1,367 @@
+[
+   {
+      "name":"Illuminance Measurement",
+      "displayName":"Illuminance Sensor",
+      "smartAppStyleName":"illuminanceMeasurement"
+   },
+   {
+      "name":"Temperature Measurement",
+      "displayName":"Temperature Sensor",
+      "smartAppStyleName":"temperatureMeasurement"
+   },
+   {
+      "name":"Relative Humidity Measurement",
+      "displayName":"Humidity Sensor",
+      "smartAppStyleName":"relativeHumidityMeasurement"
+   },
+   {
+      "name":"Switch",
+      "displayName":"Switch",
+      "smartAppStyleName":"switch"
+   },
+   {
+      "name":"Battery",
+      "displayName":"Battery",
+      "smartAppStyleName":"battery"
+   },
+   {
+      "name":"Contact Sensor",
+      "displayName":"Contact Sensor",
+      "smartAppStyleName":"contactSensor"
+   },
+   {
+      "name":"Motion Sensor",
+      "displayName":"Motion Sensor",
+      "smartAppStyleName":"motionSensor"
+   },
+   {
+      "name":"Presence Sensor",
+      "displayName":"Presence Sensor",
+      "smartAppStyleName":"presenceSensor"
+   },
+   {
+      "name":"Alarm",
+      "displayName":"Alarm Device",
+      "smartAppStyleName":"alarm"
+   },
+   {
+      "name":"Water Sensor",
+      "displayName":"Water Sensor",
+      "smartAppStyleName":"waterSensor"
+   },
+   {
+      "name":"Polling",
+      "displayName":"Polling Device",
+      "smartAppStyleName":"polling"
+   },
+   {
+      "name":"Configuration",
+      "displayName":"Configuration Device",
+      "smartAppStyleName":"configuration"
+   },
+   {
+      "name":"Tone",
+      "displayName":"Tone",
+      "smartAppStyleName":"tone"
+   },
+   {
+      "name":"Three Axis",
+      "displayName":"Orientation Sensor",
+      "smartAppStyleName":"threeAxis"
+   },
+   {
+      "name":"Switch Level",
+      "displayName":"Dimmer Switch",
+      "smartAppStyleName":"switchLevel"
+   },
+   {
+      "name":"Lock",
+      "displayName":"Lock",
+      "smartAppStyleName":"lock"
+   },
+   {
+      "name":"Acceleration Sensor",
+      "displayName":"Acceleration Sensor",
+      "smartAppStyleName":"accelerationSensor"
+   },
+   {
+      "name":"Refresh",
+      "displayName":"Refresh",
+      "smartAppStyleName":"refresh"
+   },
+   {
+      "name":"Thermostat",
+      "displayName":"Thermostat",
+      "smartAppStyleName":"thermostat"
+   },
+   {
+      "name":"Momentary",
+      "displayName":"Momentary",
+      "smartAppStyleName":"momentary"
+   },
+   {
+      "name":"Image Capture",
+      "displayName":"Camera",
+      "smartAppStyleName":"imageCapture"
+   },
+   {
+      "name":"Energy Meter",
+      "displayName":"Energy Meter",
+      "smartAppStyleName":"energyMeter"
+   },
+   {
+      "name":"Power Meter",
+      "displayName":"Power Meter",
+      "smartAppStyleName":"powerMeter"
+   },
+   {
+      "name":"Indicator",
+      "displayName":"Indicator",
+      "smartAppStyleName":"indicator"
+   },
+   {
+      "name":"Valve",
+      "displayName":"Valve",
+      "smartAppStyleName":"valve"
+   },
+   {
+      "name":"Location Mode",
+      "displayName":"Location Mode",
+      "smartAppStyleName":"locationMode"
+   },
+   {
+      "name":"Signal Strength",
+      "displayName":"Signal Strength Detector",
+      "smartAppStyleName":"signalStrength"
+   },
+   {
+      "name":"Smoke Detector",
+      "displayName":"Smoke Detector",
+      "smartAppStyleName":"smokeDetector"
+   },
+   {
+      "name":"Carbon Monoxide Detector",
+      "displayName":"Carbon Monoxide Detector",
+      "smartAppStyleName":"carbonMonoxideDetector"
+   },
+   {
+      "name":"Button",
+      "displayName":"Button",
+      "smartAppStyleName":"button"
+   },
+   {
+      "name":"Music Player",
+      "displayName":"Music Player",
+      "smartAppStyleName":"musicPlayer"
+   },
+   {
+      "name":"Lock Codes",
+      "displayName":"Lock Codes",
+      "smartAppStyleName":"lockCodes"
+   },
+   {
+      "name":"Color Control",
+      "displayName":"Color Control",
+      "smartAppStyleName":"colorControl"
+   },
+   {
+      "name":"Sensor",
+      "displayName":"Sensor",
+      "smartAppStyleName":"sensor"
+   },
+   {
+      "name":"Actuator",
+      "displayName":"Actuator",
+      "smartAppStyleName":"actuator"
+   },
+   {
+      "name":"Relay Switch",
+      "displayName":"Relay Switch",
+      "smartAppStyleName":"relaySwitch"
+   },
+   {
+      "name":"Beacon",
+      "displayName":"Beacon",
+      "smartAppStyleName":"beacon"
+   },
+   {
+      "name":"Sleep Sensor",
+      "displayName":"Sleep Sensor",
+      "smartAppStyleName":"sleepSensor"
+   },
+   {
+      "name":"Step Sensor",
+      "displayName":"Step Sensor",
+      "smartAppStyleName":"stepSensor"
+   },
+   {
+      "name":"Test Capability",
+      "displayName":"Test Capability",
+      "smartAppStyleName":"testCapability"
+   },
+   {
+      "name":"Door Control",
+      "displayName":"Door Control",
+      "smartAppStyleName":"doorControl"
+   },
+   {
+      "name":"Media Controller",
+      "displayName":"Media Controller",
+      "smartAppStyleName":"mediaController"
+   },
+   {
+      "name":"Speech Synthesis",
+      "displayName":"Speech Synthesis",
+      "smartAppStyleName":"speechSynthesis"
+   },
+   {
+      "name":"Speech Recognition",
+      "displayName":"Speech Recognition",
+      "smartAppStyleName":"speechRecognition"
+   },
+   {
+      "name":"Thermostat Cooling Setpoint",
+      "displayName":"Thermostat Cooling Setpoint",
+      "smartAppStyleName":"thermostatCoolingSetpoint"
+   },
+   {
+      "name":"Touch Sensor",
+      "displayName":"Touch Sensor",
+      "smartAppStyleName":"touchSensor"
+   },
+   {
+      "name":"Thermostat Mode",
+      "displayName":"Thermostat Mode",
+      "smartAppStyleName":"thermostatMode"
+   },
+   {
+      "name":"Thermostat Fan Mode",
+      "displayName":"Thermostat Fan Mode",
+      "smartAppStyleName":"thermostatFanMode"
+   },
+   {
+      "name":"Thermostat Operating State",
+      "displayName":"Thermostat Operating State",
+      "smartAppStyleName":"thermostatOperatingState"
+   },
+   {
+      "name":"Thermostat Heating Setpoint",
+      "displayName":"Thermostat Heating Setpoint",
+      "smartAppStyleName":"thermostatHeatingSetpoint"
+   },
+   {
+      "name":"Thermostat Setpoint",
+      "displayName":"Thermostat Setpoint",
+      "smartAppStyleName":"thermostatSetpoint"
+   },
+   {
+      "name":"TV",
+      "displayName":"TV",
+      "smartAppStyleName":"tV"
+   },
+   {
+      "name":"Color Temperature",
+      "displayName":"Color Temperature",
+      "smartAppStyleName":"colorTemperature"
+   },
+   {
+      "name":"Garage Door Control",
+      "displayName":"Garage Door Control",
+      "smartAppStyleName":"garageDoorControl"
+   },
+   {
+      "name":"Estimated Time Of Arrival",
+      "displayName":"Estimated Time Of Arrival",
+      "smartAppStyleName":"estimatedTimeOfArrival"
+   },
+   {
+      "name":"Notification",
+      "displayName":"Notification Device",
+      "smartAppStyleName":"notification"
+   },
+   {
+      "name":"Thermostat Schedule",
+      "displayName":"Thermostat Schedule",
+      "smartAppStyleName":"thermostatSchedule"
+   },
+   {
+      "name":"Health Check",
+      "displayName":"Health Check",
+      "smartAppStyleName":"healthCheck"
+   },
+   {
+      "name":"Ultraviolet Index",
+      "displayName":"Ultraviolet Index",
+      "smartAppStyleName":"ultravioletIndex"
+   },
+   {
+      "name":"Video Camera",
+      "displayName":"Video Camera",
+      "smartAppStyleName":"videoCamera"
+   },
+   {
+      "name":"Video Capture",
+      "displayName":"Video Capture",
+      "smartAppStyleName":"videoCapture"
+   },
+   {
+      "name":"Zw Multichannel",
+      "displayName":"Z-Wave Multichannel",
+      "smartAppStyleName":"zwMultichannel"
+   },
+   {
+      "name":"Sound Sensor",
+      "displayName":"Sound Sensor",
+      "smartAppStyleName":"soundSensor"
+   },
+   {
+      "name":"Consumable",
+      "displayName":"Consumable",
+      "smartAppStyleName":"consumable"
+   },
+   {
+      "name":"Timed Session",
+      "displayName":"Timed Session",
+      "smartAppStyleName":"timedSession"
+   },
+   {
+      "name":"Carbon Dioxide Measurement",
+      "displayName":"Carbon Dioxide Measurement",
+      "smartAppStyleName":"carbonDioxideMeasurement"
+   },
+   {
+      "name":"Sound Pressure Level",
+      "displayName":"Sound Pressure Level",
+      "smartAppStyleName":"soundPressureLevel"
+   },
+   {
+      "name":"pH Measurement",
+      "displayName":"pH Measurement",
+      "smartAppStyleName":"pHMeasurement"
+   },
+   {
+      "name":"Tamper Alert",
+      "displayName":"Tamper Alert",
+      "smartAppStyleName":"tamperAlert"
+   },
+   {
+      "name":"Voltage Measurement",
+      "displayName":"Voltage Measurement",
+      "smartAppStyleName":"voltageMeasurement"
+   },
+   {
+      "name":"Window Shade",
+      "displayName":"Window Shade",
+      "smartAppStyleName":"windowShade"
+   },
+   {
+      "name":"Shock Sensor",
+      "displayName":"Shock Sensor",
+      "smartAppStyleName":"shockSensor"
+   },
+   {
+      "name":"Samsung TV",
+      "displayName":"Samsung TV",
+      "smartAppStyleName":"samsungTV"
+   }
+]

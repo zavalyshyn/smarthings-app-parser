@@ -1,0 +1,4 @@
+ ,sendSms,mappings,httpGet,httpPost,httpPostJson,httpDelete,httpPutJson
+phone,132,0,2,3,0,0,0
+mode,23,1,2,0,2,0,0
+location,9,2,1,0,3,0,0

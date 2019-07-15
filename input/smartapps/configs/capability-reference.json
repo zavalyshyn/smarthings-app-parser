@@ -1,0 +1,2227 @@
+[
+    {
+        "displayname": "mode",
+        "name": "mode",
+        "attributes": [
+            {
+                "name": "mode",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Geolocation",
+        "name": "geolocation",
+        "attributes": [
+            {
+                "name": "latitude",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "longitude",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            },
+            {
+                "name": "method",
+                "dataType": "STRING",
+                "values": []
+            },
+            {
+                "name": "accuracy",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "altitudeAccuracy",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "heading",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "speed",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "lastUpdateTime",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Location",
+        "name": "location",
+        "attributes": [
+            {
+                "name": "position",
+                "dataType": "ENUM",
+                "values": []
+            },
+            {
+                "name": "sunset",
+                "dataType": "ENUM",
+                "values": []
+            },
+            {
+                "name": "sunrise",
+                "dataType": "ENUM",
+                "values": []
+            },
+            {
+                "name": "sunsetTime",
+                "dataType": "ENUM",
+                "values": []
+            },
+            {
+                "name": "sunriseTime",
+                "dataType": "ENUM",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Illuminance Measurement",
+        "name": "capability.illuminanceMeasurement",
+        "attributes": [
+            {
+                "name": "illuminance",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Temperature Measurement",
+        "name": "capability.temperatureMeasurement",
+        "attributes": [
+            {
+                "name": "temperature",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Relative Humidity Measurement",
+        "name": "capability.relativeHumidityMeasurement",
+        "attributes": [
+            {
+                "name": "humidity",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Switch",
+        "name": "capability.switch",
+        "attributes": [
+            {
+                "name": "switch",
+                "dataType": "ENUM",
+                "values": [
+                    "on",
+                    "off"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "on",
+                "arguments": []
+            },
+            {
+                "name": "off",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Battery",
+        "name": "capability.battery",
+        "attributes": [
+            {
+                "name": "battery",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Contact Sensor",
+        "name": "capability.contactSensor",
+        "attributes": [
+            {
+                "name": "contact",
+                "dataType": "ENUM",
+                "values": [
+                    "closed",
+                    "open"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Motion Sensor",
+        "name": "capability.motionSensor",
+        "attributes": [
+            {
+                "name": "motion",
+                "dataType": "ENUM",
+                "values": [
+                    "inactive",
+                    "active"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Presence Sensor",
+        "name": "capability.presenceSensor",
+        "attributes": [
+            {
+                "name": "presence",
+                "dataType": "ENUM",
+                "values": [
+                    "present",
+                    "not present"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Alarm",
+        "name": "capability.alarm",
+        "attributes": [
+            {
+                "name": "alarm",
+                "dataType": "ENUM",
+                "values": [
+                    "strobe",
+                    "off",
+                    "both",
+                    "siren"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "off",
+                "arguments": []
+            },
+            {
+                "name": "strobe",
+                "arguments": []
+            },
+            {
+                "name": "siren",
+                "arguments": []
+            },
+            {
+                "name": "both",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Water Sensor",
+        "name": "capability.waterSensor",
+        "attributes": [
+            {
+                "name": "water",
+                "dataType": "ENUM",
+                "values": [
+                    "wet",
+                    "dry"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Polling",
+        "name": "capability.polling",
+        "attributes": [],
+        "commands": [
+            {
+                "name": "poll",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Configuration",
+        "name": "capability.configuration",
+        "attributes": [],
+        "commands": [
+            {
+                "name": "configure",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Tone",
+        "name": "capability.tone",
+        "attributes": [],
+        "commands": [
+            {
+                "name": "beep",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Three Axis",
+        "name": "capability.threeAxis",
+        "attributes": [
+            {
+                "name": "threeAxis",
+                "dataType": "VECTOR3",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Switch Level",
+        "name": "capability.switchLevel",
+        "attributes": [
+            {
+                "name": "level",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "setLevel",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    },
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Lock",
+        "name": "capability.lock",
+        "attributes": [
+            {
+                "name": "lock",
+                "dataType": "ENUM",
+                "values": [
+                    "locked",
+                    "unlocked with timeout",
+                    "unlocked",
+                    "unknown"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "lock",
+                "arguments": []
+            },
+            {
+                "name": "unlock",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Acceleration Sensor",
+        "name": "capability.accelerationSensor",
+        "attributes": [
+            {
+                "name": "acceleration",
+                "dataType": "ENUM",
+                "values": [
+                    "inactive",
+                    "active"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Refresh",
+        "name": "capability.refresh",
+        "attributes": [],
+        "commands": [
+            {
+                "name": "refresh",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Thermostat",
+        "name": "capability.thermostat",
+        "attributes": [
+            {
+                "name": "temperature",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "heatingSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "coolingSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "thermostatSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "thermostatMode",
+                "dataType": "ENUM",
+                "values": [
+                    "auto",
+                    "off",
+                    "heat",
+                    "emergency heat",
+                    "cool"
+                ]
+            },
+            {
+                "name": "thermostatFanMode",
+                "dataType": "ENUM",
+                "values": [
+                    "on",
+                    "circulate",
+                    "auto"
+                ]
+            },
+            {
+                "name": "thermostatOperatingState",
+                "dataType": "ENUM",
+                "values": [
+                    "heating",
+                    "pending cool",
+                    "pending heat",
+                    "vent economizer",
+                    "idle",
+                    "cooling",
+                    "fan only"
+                ]
+            },
+            {
+                "name": "schedule",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "setHeatingSetpoint",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "setCoolingSetpoint",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "off",
+                "arguments": []
+            },
+            {
+                "name": "heat",
+                "arguments": []
+            },
+            {
+                "name": "emergencyHeat",
+                "arguments": []
+            },
+            {
+                "name": "cool",
+                "arguments": []
+            },
+            {
+                "name": "setThermostatMode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "ENUM"
+                    }
+                ]
+            },
+            {
+                "name": "fanOn",
+                "arguments": []
+            },
+            {
+                "name": "fanAuto",
+                "arguments": []
+            },
+            {
+                "name": "fanCirculate",
+                "arguments": []
+            },
+            {
+                "name": "setThermostatFanMode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "ENUM"
+                    }
+                ]
+            },
+            {
+                "name": "auto",
+                "arguments": []
+            },
+            {
+                "name": "setSchedule",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "JSON_OBJECT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Momentary",
+        "name": "capability.momentary",
+        "attributes": [],
+        "commands": [
+            {
+                "name": "push",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Image Capture",
+        "name": "capability.imageCapture",
+        "attributes": [
+            {
+                "name": "image",
+                "dataType": "STRING",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "take",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Energy Meter",
+        "name": "capability.energyMeter",
+        "attributes": [
+            {
+                "name": "energy",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Lock Only",
+        "name": "capability.lockOnly",
+        "attributes": [
+            {
+                "name": "lock",
+                "dataType": "ENUM",
+                "values": [
+                  "locked",
+                  "unknown",
+                  "unlocked",
+                  "unlocked with timeout"
+                ]
+            }
+        ],
+        "commands": [
+          {
+            "name": "lock",
+            "arguments": []
+          }
+        ]
+    },
+    {
+        "displayname": "Power Meter",
+        "name": "capability.powerMeter",
+        "attributes": [
+            {
+                "name": "power",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Indicator",
+        "name": "capability.indicator",
+        "attributes": [
+            {
+                "name": "indicatorStatus",
+                "dataType": "ENUM",
+                "values": [
+                    "never",
+                    "when on",
+                    "when off"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "indicatorWhenOn",
+                "arguments": []
+            },
+            {
+                "name": "indicatorWhenOff",
+                "arguments": []
+            },
+            {
+                "name": "indicatorNever",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Valve",
+        "name": "capability.valve",
+        "attributes": [
+            {
+                "name": "contact",
+                "dataType": "ENUM",
+                "values": [
+                    "open",
+                    "closed"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "open",
+                "arguments": []
+            },
+            {
+                "name": "close",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Location Mode",
+        "name": "capability.locationMode",
+        "attributes": [
+            {
+                "name": "mode",
+                "dataType": "DYNAMIC_ENUM",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Signal Strength",
+        "name": "capability.signalStrength",
+        "attributes": [
+            {
+                "name": "lqi",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "rssi",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Smoke Detector",
+        "name": "capability.smokeDetector",
+        "attributes": [
+            {
+                "name": "smoke",
+                "dataType": "ENUM",
+                "values": [
+                    "clear",
+                    "tested",
+                    "detected"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Carbon Monoxide Detector",
+        "name": "capability.carbonMonoxideDetector",
+        "attributes": [
+            {
+                "name": "carbonMonoxide",
+                "dataType": "ENUM",
+                "values": [
+                    "detected",
+                    "tested",
+                    "clear"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Button",
+        "name": "capability.button",
+        "attributes": [
+            {
+                "name": "button",
+                "dataType": "ENUM",
+                "values": [
+                    "held",
+                    "pushed"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Music Player",
+        "name": "capability.musicPlayer",
+        "attributes": [
+            {
+                "name": "status",
+                "dataType": "STRING",
+                "values": []
+            },
+            {
+                "name": "level",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "trackDescription",
+                "dataType": "STRING",
+                "values": []
+            },
+            {
+                "name": "trackData",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            },
+            {
+                "name": "mute",
+                "dataType": "ENUM",
+                "values": [
+                    "unmuted",
+                    "muted"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "play",
+                "arguments": []
+            },
+            {
+                "name": "pause",
+                "arguments": []
+            },
+            {
+                "name": "stop",
+                "arguments": []
+            },
+            {
+                "name": "nextTrack",
+                "arguments": []
+            },
+            {
+                "name": "playTrack",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            },
+            {
+                "name": "setLevel",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "playText",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            },
+            {
+                "name": "mute",
+                "arguments": []
+            },
+            {
+                "name": "previousTrack",
+                "arguments": []
+            },
+            {
+                "name": "unmute",
+                "arguments": []
+            },
+            {
+                "name": "setTrack",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            },
+            {
+                "name": "resumeTrack",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            },
+            {
+                "name": "restoreTrack",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Lock Codes",
+        "name": "capability.lockCodes",
+        "attributes": [
+            {
+                "name": "lock",
+                "dataType": "ENUM",
+                "values": [
+                    "unlocked",
+                    "locked",
+                    "unlocked with timeout",
+                    "unknown"
+                ]
+            },
+            {
+                "name": "codeReport",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            },
+            {
+                "name": "codeChanged",
+                "dataType": "STRING",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "lock",
+                "arguments": []
+            },
+            {
+                "name": "unlock",
+                "arguments": []
+            },
+            {
+                "name": "updateCodes",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "JSON_OBJECT"
+                    }
+                ]
+            },
+            {
+                "name": "setCode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    },
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "deleteCode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "requestCode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "reloadAllCodes",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Color Control",
+        "name": "capability.colorControl",
+        "attributes": [
+            {
+                "name": "hue",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "saturation",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "color",
+                "dataType": "STRING",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "setHue",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "setSaturation",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "setColor",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "COLOR_MAP"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Sensor",
+        "name": "capability.sensor",
+        "attributes": [],
+        "commands": []
+    },
+    {
+        "displayname": "Actuator",
+        "name": "capability.actuator",
+        "attributes": [],
+        "commands": []
+    },
+    {
+        "displayname": "Outlet",
+        "name": "capability.outlet",
+        "attributes": [
+          {
+            "name": "switch",
+            "dataType": "ENUM",
+            "values": [
+              "off",
+              "on"
+            ]
+          }
+        ],
+        "commands": [
+          {
+            "name": "off",
+            "arguments": []
+          },
+          {
+            "name": "on",
+            "arguments": []
+          }
+        ],
+        "status": "deprecated"
+    },
+    {
+        "displayname": "Relay Switch",
+        "name": "capability.relaySwitch",
+        "attributes": [
+            {
+                "name": "switch",
+                "dataType": "ENUM",
+                "values": [
+                    "on",
+                    "off"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "on",
+                "arguments": []
+            },
+            {
+                "name": "off",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Beacon",
+        "name": "capability.beacon",
+        "attributes": [
+            {
+                "name": "presence",
+                "dataType": "ENUM",
+                "values": [
+                    "not present",
+                    "present"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Sleep Sensor",
+        "name": "capability.sleepSensor",
+        "attributes": [
+            {
+                "name": "sleeping",
+                "dataType": "ENUM",
+                "values": [
+                    "not sleeping",
+                    "sleeping"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Step Sensor",
+        "name": "capability.stepSensor",
+        "attributes": [
+            {
+                "name": "steps",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "goal",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Test Capability",
+        "name": "capability.testCapability",
+        "attributes": [],
+        "commands": []
+    },
+    {
+        "displayname": "Door Control",
+        "name": "capability.doorControl",
+        "attributes": [
+            {
+                "name": "door",
+                "dataType": "ENUM",
+                "values": [
+                    "unknown",
+                    "closed",
+                    "open",
+                    "closing",
+                    "opening"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "open",
+                "arguments": []
+            },
+            {
+                "name": "close",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Media Controller",
+        "name": "capability.mediaController",
+        "attributes": [
+            {
+                "name": "activities",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            },
+            {
+                "name": "currentActivity",
+                "dataType": "STRING",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "startActivity",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            },
+            {
+                "name": "getAllActivities",
+                "arguments": []
+            },
+            {
+                "name": "getCurrentActivity",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Speech Synthesis",
+        "name": "capability.speechSynthesis",
+        "attributes": [],
+        "commands": [
+            {
+                "name": "speak",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Speech Recognition",
+        "name": "capability.speechRecognition",
+        "attributes": [
+            {
+                "name": "phraseSpoken",
+                "dataType": "STRING",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Video Clips",
+        "name": "capability.videoClips",
+        "attributes": [
+            {
+                "name": "videoClip",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            }
+        ],
+        "commands": [
+          {
+            "name": "captureClip",
+            "arguments": [
+              {
+                "name": "duration",
+                "type": "NUMBER"
+              },
+              {
+                "name": "preFetch",
+                "type": "NUMBER"
+              }
+            ]
+          }
+        ]
+    },
+    {
+        "displayname": "Thermostat Cooling Setpoint",
+        "name": "capability.thermostatCoolingSetpoint",
+        "attributes": [
+            {
+                "name": "coolingSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "setCoolingSetpoint",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Touch Sensor",
+        "name": "capability.touchSensor",
+        "attributes": [
+            {
+                "name": "touch",
+                "dataType": "ENUM",
+                "values": [
+                    "touched"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Video Stream",
+        "name": "capability.videoStream",
+        "attributes": [
+            {
+                "name": "stream",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            }
+        ],
+        "commands": [
+          {
+            "name": "startStream",
+            "arguments": []
+          },
+          {
+            "name": "stopStream",
+            "arguments": []
+          }
+        ]
+    },
+    {
+        "displayname": "Thermostat Mode",
+        "name": "capability.thermostatMode",
+        "attributes": [
+            {
+                "name": "thermostatMode",
+                "dataType": "ENUM",
+                "values": [
+                    "heat",
+                    "cool",
+                    "emergency heat",
+                    "auto",
+                    "off"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "off",
+                "arguments": []
+            },
+            {
+                "name": "heat",
+                "arguments": []
+            },
+            {
+                "name": "emergencyHeat",
+                "arguments": []
+            },
+            {
+                "name": "cool",
+                "arguments": []
+            },
+            {
+                "name": "auto",
+                "arguments": []
+            },
+            {
+                "name": "setThermostatMode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "ENUM"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Thermostat Fan Mode",
+        "name": "capability.thermostatFanMode",
+        "attributes": [
+            {
+                "name": "thermostatFanMode",
+                "dataType": "ENUM",
+                "values": [
+                    "auto",
+                    "circulate",
+                    "on"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "fanOn",
+                "arguments": []
+            },
+            {
+                "name": "fanAuto",
+                "arguments": []
+            },
+            {
+                "name": "fanCirculate",
+                "arguments": []
+            },
+            {
+                "name": "setThermostatFanMode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "ENUM"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Thermostat Operating State",
+        "name": "capability.thermostatOperatingState",
+        "attributes": [
+            {
+                "name": "thermostatOperatingState",
+                "dataType": "ENUM",
+                "values": [
+                    "vent economizer",
+                    "pending cool",
+                    "cooling",
+                    "heating",
+                    "pending heat",
+                    "fan only",
+                    "idle"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Thermostat Heating Setpoint",
+        "name": "capability.thermostatHeatingSetpoint",
+        "attributes": [
+            {
+                "name": "heatingSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "setHeatingSetpoint",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Thermostat Setpoint",
+        "name": "capability.thermostatSetpoint",
+        "attributes": [
+            {
+                "name": "thermostatSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Thermostat",
+        "name": "capability.thermostat",
+        "attributes": [
+            {
+                "name": "coolingSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "coolingSetpointRange",
+                "dataType": "VECTOR3",
+                "values": []
+            },
+            {
+                "name": "heatingSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "heatingSetpointRange",
+                "dataType": "VECTOR3",
+                "values": []
+            },
+            {
+                "name": "schedule",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            },
+            {
+                "name": "temperature",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "thermostatFanMode",
+                "dataType": "ENUM",
+                "values": [
+                    "auto",
+                    "circulate",
+                    "followschedule",
+                    "on"
+                ]
+            },
+            {
+                "name": "supportedThermostatFanModes",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            },
+            {
+                "name": "thermostatMode",
+                "dataType": "ENUM",
+                "values": [
+                    "auto",
+                    "eco",
+                    "rush hour",
+                    "cool",
+                    "emergency heat",
+                    "heat",
+                    "off"
+                ]
+            },
+            {
+                "name": "supportedThermostatModes",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            },
+            {
+                "name": "thermostatOperatingState",
+                "dataType": "ENUM",
+                "values": [
+                    "cooling",
+                    "fan only",
+                    "heating",
+                    "idle",
+                    "pending cool",
+                    "pending heat",
+                    "vent economizer"
+                ]
+            },
+            {
+                "name": "thermostatSetpoint",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "thermostatSetpointRange",
+                "dataType": "VECTOR3",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "auto",
+                "arguments": []
+            },
+            {
+                "name": "cool",
+                "arguments": []
+            },
+            {
+                "name": "emergencyHeat",
+                "arguments": []
+            },
+            {
+                "name": "fanAuto",
+                "arguments": []
+            },
+            {
+                "name": "fanCirculate",
+                "arguments": []
+            },
+            {
+                "name": "fanOn",
+                "arguments": []
+            },
+            {
+                "name": "heat",
+                "arguments": []
+            },
+            {
+                "name": "off",
+                "arguments": []
+            },
+            {
+                "name": "setCoolingSetpoint",
+                "arguments": [
+                    {
+                        "name": "setpoint",
+                        "type": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "setHeatingSetpoint",
+                "arguments": [
+                    {
+                        "name": "setpoint",
+                        "type": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "setSchedule",
+                "arguments": [
+                    {
+                        "name": "schedule",
+                        "type": "JSON_OBJECT"
+                    }
+                ]
+            },
+            {
+                "name": "setThermostatFanMode",
+                "arguments": [
+                    {
+                        "name": "fanmode",
+                        "type": "ENUM",
+                        "values": [
+                            "auto",
+                            "circulate",
+                            "followschedule",
+                            "on"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "setThermostatMode",
+                "arguments": [
+                    {
+                        "name": "mode",
+                        "type": "ENUM",
+                        "values": [
+                            "auto",
+                            "eco",
+                            "rush hour",
+                            "cool",
+                            "emergency heat",
+                            "heat",
+                            "off"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "status": "deprecated"
+    },
+    {
+        "displayname": "TV",
+        "name": "capability.tV",
+        "attributes": [
+            {
+                "name": "volume",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "channel",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "power",
+                "dataType": "STRING",
+                "values": []
+            },
+            {
+                "name": "picture",
+                "dataType": "STRING",
+                "values": []
+            },
+            {
+                "name": "sound",
+                "dataType": "STRING",
+                "values": []
+            },
+            {
+                "name": "movieMode",
+                "dataType": "STRING",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "volumeUp",
+                "arguments": []
+            },
+            {
+                "name": "volumeDown",
+                "arguments": []
+            },
+            {
+                "name": "channelUp",
+                "arguments": []
+            },
+            {
+                "name": "channelDown",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Color Temperature",
+        "name": "capability.colorTemperature",
+        "attributes": [
+            {
+                "name": "colorTemperature",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "setColorTemperature",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Garage Door Control",
+        "name": "capability.garageDoorControl",
+        "attributes": [
+            {
+                "name": "door",
+                "dataType": "ENUM",
+                "values": [
+                    "unknown",
+                    "open",
+                    "closing",
+                    "closed",
+                    "opening"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "open",
+                "arguments": []
+            },
+            {
+                "name": "close",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Estimated Time Of Arrival",
+        "name": "capability.estimatedTimeOfArrival",
+        "attributes": [
+            {
+                "name": "eta",
+                "dataType": "DATE",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Notification",
+        "name": "capability.notification",
+        "attributes": [],
+        "commands": [
+            {
+                "name": "deviceNotification",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Thermostat Schedule",
+        "name": "capability.thermostatSchedule",
+        "attributes": [
+            {
+                "name": "schedule",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "setSchedule",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "JSON_OBJECT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Health Check",
+        "name": "capability.healthCheck",
+        "attributes": [
+            {
+                "name": "checkInterval",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "ping",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Ultraviolet Index",
+        "name": "capability.ultravioletIndex",
+        "attributes": [
+            {
+                "name": "ultravioletIndex",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Video Camera",
+        "name": "capability.videoCamera",
+        "attributes": [
+            {
+                "name": "camera",
+                "dataType": "ENUM",
+                "values": [
+                    "on",
+                    "off",
+                    "restarting",
+                    "unavailable"
+                ]
+            },
+            {
+                "name": "statusMessage",
+                "dataType": "STRING",
+                "values": []
+            },
+            {
+                "name": "mute",
+                "dataType": "ENUM",
+                "values": [
+                    "unmuted",
+                    "muted"
+                ]
+            },
+            {
+                "name": "settings",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "on",
+                "arguments": []
+            },
+            {
+                "name": "off",
+                "arguments": []
+            },
+            {
+                "name": "mute",
+                "arguments": []
+            },
+            {
+                "name": "unmute",
+                "arguments": []
+            },
+            {
+                "name": "flip",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Video Capture",
+        "name": "capability.videoCapture",
+        "attributes": [
+            {
+                "name": "clip",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "capture",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "DATE"
+                    },
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "DATE"
+                    },
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "DATE"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Zw Multichannel",
+        "name": "capability.zwMultichannel",
+        "attributes": [
+            {
+                "name": "epEvent",
+                "dataType": "STRING",
+                "values": []
+            },
+            {
+                "name": "epInfo",
+                "dataType": "STRING",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "enableEpEvents",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            },
+            {
+                "name": "epCmd",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    },
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Sound Sensor",
+        "name": "capability.soundSensor",
+        "attributes": [
+            {
+                "name": "sound",
+                "dataType": "ENUM",
+                "values": [
+                    "detected",
+                    "not detected"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Consumable",
+        "name": "capability.consumable",
+        "attributes": [
+            {
+                "name": "consumableStatus",
+                "dataType": "ENUM",
+                "values": [
+                    "missing",
+                    "order",
+                    "maintenance_required",
+                    "good",
+                    "replace"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "setConsumableStatus",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayname": "Timed Session",
+        "name": "capability.timedSession",
+        "attributes": [
+            {
+                "name": "sessionStatus",
+                "dataType": "ENUM",
+                "values": [
+                    "stopped",
+                    "canceled",
+                    "running",
+                    "paused"
+                ]
+            },
+            {
+                "name": "timeRemaining",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "setTimeRemaining",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "start",
+                "arguments": []
+            },
+            {
+                "name": "stop",
+                "arguments": []
+            },
+            {
+                "name": "pause",
+                "arguments": []
+            },
+            {
+                "name": "cancel",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Carbon Dioxide Measurement",
+        "name": "capability.carbonDioxideMeasurement",
+        "attributes": [
+            {
+                "name": "carbonDioxide",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Sound Pressure Level",
+        "name": "capability.soundPressureLevel",
+        "attributes": [
+            {
+                "name": "soundPressureLevel",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "pH Measurement",
+        "name": "capability.pHMeasurement",
+        "attributes": [
+            {
+                "name": "pH",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Tamper Alert",
+        "name": "capability.tamperAlert",
+        "attributes": [
+            {
+                "name": "tamper",
+                "dataType": "ENUM",
+                "values": [
+                    "clear",
+                    "detected"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Voltage Measurement",
+        "name": "capability.voltageMeasurement",
+        "attributes": [
+            {
+                "name": "voltage",
+                "dataType": "NUMBER",
+                "values": []
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Window Shade",
+        "name": "capability.windowShade",
+        "attributes": [
+            {
+                "name": "windowShade",
+                "dataType": "ENUM",
+                "values": [
+                    "opening",
+                    "partially open",
+                    "closed",
+                    "open",
+                    "closing",
+                    "unknown"
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "name": "open",
+                "arguments": []
+            },
+            {
+                "name": "close",
+                "arguments": []
+            },
+            {
+                "name": "presetPosition",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "displayname": "Shock Sensor",
+        "name": "capability.shockSensor",
+        "attributes": [
+            {
+                "name": "shock",
+                "dataType": "ENUM",
+                "values": [
+                    "clear",
+                    "detected"
+                ]
+            }
+        ],
+        "commands": []
+    },
+    {
+        "displayname": "Samsung TV",
+        "name": "capability.samsungTV",
+        "attributes": [
+            {
+                "name": "volume",
+                "dataType": "NUMBER",
+                "values": []
+            },
+            {
+                "name": "mute",
+                "dataType": "ENUM",
+                "values": [
+                    "muted",
+                    "unknown",
+                    "unmuted"
+                ]
+            },
+            {
+                "name": "pictureMode",
+                "dataType": "ENUM",
+                "values": [
+                    "unknown",
+                    "standard",
+                    "movie",
+                    "dynamic"
+                ]
+            },
+            {
+                "name": "soundMode",
+                "dataType": "ENUM",
+                "values": [
+                    "speech",
+                    "movie",
+                    "unknown",
+                    "standard",
+                    "music"
+                ]
+            },
+            {
+                "name": "switch",
+                "dataType": "ENUM",
+                "values": [
+                    "on",
+                    "off"
+                ]
+            },
+            {
+                "name": "messageButton",
+                "dataType": "JSON_OBJECT",
+                "values": []
+            }
+        ],
+        "commands": [
+            {
+                "name": "volumeUp",
+                "arguments": []
+            },
+            {
+                "name": "volumeDown",
+                "arguments": []
+            },
+            {
+                "name": "setVolume",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "NUMBER"
+                    }
+                ]
+            },
+            {
+                "name": "mute",
+                "arguments": []
+            },
+            {
+                "name": "unmute",
+                "arguments": []
+            },
+            {
+                "name": "setPictureMode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "ENUM"
+                    }
+                ]
+            },
+            {
+                "name": "setSoundMode",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "ENUM"
+                    }
+                ]
+            },
+            {
+                "name": "on",
+                "arguments": []
+            },
+            {
+                "name": "off",
+                "arguments": []
+            },
+            {
+                "name": "showMessage",
+                "arguments": [
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    },
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    },
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    },
+                    {
+                        "enumType": "physicalgraph.device.DataType",
+                        "name": "STRING"
+                    }
+                ]
+            }
+        ]
+    }
+]
