@@ -2,7 +2,7 @@
 
 A parser for SmartThings SmartApps that extracts the information about the apps' access to device capabilities and calls to SmartThings API that can potentially be used for sensitive data leaking. 
 
-This code is based on [IoTSan project](https://github.com/dangtunguyen/IoTSan) and all the kudos should go to their respective authors. I only mofied their code slightly for my needs. 
+This code is based on [IoTSan project](https://github.com/dangtunguyen/IoTSan) and all the kudos should go to their respective authors. I only modified their code slightly for my needs. 
 
 ## What this code does
 
